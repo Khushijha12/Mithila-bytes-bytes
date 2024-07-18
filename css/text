@@ -1,0 +1,71 @@
+<html>
+
+<head>
+    <title>Food Order Website - Home Page </title>
+    <link rel="stylesheet" href="../css/admin.css">
+    <style>
+        .tbl {
+    width: 100%;
+
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+.btn-primary{
+    background-color: #1e90ff;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background-color: #3742fa ;
+}
+
+.btn-secondary{
+    background-color: #7bed9f;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-secondary:hover{
+    background-color:  #7bed9f; 
+}
+
+
+.btn-primary{
+    background-color: #1e90ff;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background-color: #3742fa ;
+}
+    </style>
+</head>
+
+<body>
+    <!-- Menu Section Starts -->
+    <div class="menu text-center">
+        <div class="wrapper">
+            <ul>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="manage_admin.php">Admin</a></li>
+                <li><a href="manage_category.php">Category</a></li>
+                <li><a href="manage_food.php">Food</a></li>
+                <li><a href="manage_order.php">Order</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Menu Section Ends -->
+
